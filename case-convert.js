@@ -3,8 +3,9 @@ const search = 'valobashi';
 if (anthem == search) {
     console.log('Matched');
 }
-else if (anthem.toLowerCase() == search) {
-    console.log('Matched');
+else {
+    const result = anthem.toLowerCase() == search;
+    console.log(result);
 }
 
 

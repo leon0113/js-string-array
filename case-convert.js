@@ -1,5 +1,11 @@
-const anthem = 'Amr Sonar Bangla Ami Tomay Valobashi';
-const search = 'valo';
+const anthem = 'Valobashi';
+const search = 'valobashi';
+if (anthem == search) {
+    console.log('Matched');
+}
+else if (anthem.toLowerCase() == search) {
+    console.log('Matched');
+}
 
 
 
@@ -11,4 +17,4 @@ if (userInput.toLowerCase() == savedUserName) {
 
 const name = 'leon';
 const upperCaseName = name.toUpperCase();
-console.log(upperCaseName);
+// console.log(upperCaseName);

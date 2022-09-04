@@ -16,6 +16,6 @@ if (userInput.toLowerCase() == savedUserName) {
     // console.log('user exits');
 }
 
-const name = 'leon';
-const upperCaseName = name.toUpperCase();
-// console.log(upperCaseName);
+const name1 = 'leon';
+const upperCaseName = name1.toUpperCase();
+console.log(upperCaseName);

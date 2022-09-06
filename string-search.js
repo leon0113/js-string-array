@@ -8,11 +8,19 @@ const products = [
     'Samsung phone n Laptop'
 ];
 const searching = 'dell';
-
+// includes
 const output = [];
 for (const product of products) {
-    if (product.toLowerCase().startsWith(searching.toLowerCase())) {
+    if (product.toLowerCase().includes(searching.toLowerCase())) {
         output.push(product);
     }
 }
 console.log(output);
+// startsWith
+const output1 = [];
+for (const product of products) {
+    if (product.toLowerCase().startsWith(searching.toLowerCase())) {
+        output1.push(product);
+    }
+}
+console.log(output1);
